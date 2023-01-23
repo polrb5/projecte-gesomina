@@ -13,6 +13,8 @@ const Img = ({
       objectFit="cover"
       sizes={sizes}
       src={src}
+      placeholder="blur"
+      blurDataURL={src}
       {...(key && { key })}
       {...(priority && { priority })}
     // onError={() => {
